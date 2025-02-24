@@ -1,0 +1,39 @@
+---
+title: "Milestone 1"
+author: "Sidney Langford, Han Sun"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+
+## Project Topic: 
+Success in literature: the NYT bestseller list and book reviews
+
+## Questions:
+What factors contribute to books making the bestseller list?
+How do book reviews affect sales?
+How has the relationship between book sales and reviews changed over time?
+
+## Data:
+NYT bestseller list API
+Web scraping from "https://www.librarything.com/zeitgeist", a book review website.
+
+## Data Context:
+
+### NYT: 
+The NYT bestseller list API is a collection of current and past bestseller lists from the New York Times, as well as a collection of reviews of specific books. These lists are grouped by genre (such as fiction and non-fiction) and book format (hardcover, paperback, e-book). While the exact criteria for how books are picked for the bestseller list is not public information, factors such as book sales and internal reviews are used. With the ability to look at how the bestseller lists have changed over time as well as official reviews, this dataset can help us explore relationships between book success and other variables like reviews, authorship, and more. 
+
+### Library Thing: 
+The web scraping from Library Thing will provide a dataset including the tags, authors, ratings,  number of ratings, number of members(people who read this book) and the number of reviews including text. With this dataset, we can discuss the relation between reviews and selling. It can also provide a dataset with most popular tags and authors of books, which might be some reasons that affect selling. However, none of these dataset can generate the changes by time.
+
+## Plan: 
+Before Milestone 2, we plan on learning the skills to physically download this data (using APIs and web scraping), before joining the two dataframes together by book. From there we will be able to begin some exploratory analysis by looking at relationships between different variables, wrangling as needed (for example, creating a positive/negative variable to help categorize reviews). We will also create a codebook for our dataset.
+
+
+
+
+
+
+
