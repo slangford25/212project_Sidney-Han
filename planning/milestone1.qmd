@@ -35,5 +35,8 @@ Before Milestone 2, we plan on learning the skills to physically download this d
 
 
 
+```{r}
+sessionInfo()
+```
 
 
